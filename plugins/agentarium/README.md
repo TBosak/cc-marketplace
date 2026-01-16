@@ -13,14 +13,10 @@ Track, display, filter, and analyze Claude Code agent activity.
 
 ### Installation
 1. Install Bun: https://bun.sh/
-2. 
-
-### As a Claude Code Plugin
-
-1. In Claude Code, go to **Settings > Plugins**.
-2. Click **Add Plugin** and select the `plugins/agentarium/.claude-plugin` folder.
-3. Install tracking hooks and initialize database by starting a session with the plugin enabled.
-4. Restart Claude Code to ensure hooks are active and that dashboard is accessible.
+2. In Claude Code, enter "/plugin marketplace add TBosak/cc-marketplace" to add the marketplace plugin.
+3. Then enter "/plugin install agentarium@tbosak" to install Agentarium.
+4. Install tracking hooks and initialize database by starting a session with the plugin enabled.
+5. Restart Claude Code to ensure hooks are active and that dashboard is accessible.
 
 ### Dashboard
 
