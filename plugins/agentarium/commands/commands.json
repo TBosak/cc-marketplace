@@ -1,0 +1,22 @@
+{
+  "commands": [
+    {
+      "name": "agentarium",
+      "description": "Open Agentarium dashboard",
+      "command": "bun",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/commands/open-dashboard.ts"]
+    },
+    {
+      "name": "agentarium-init",
+      "description": "Initialize Agentarium for this project (creates .agentarium folder)",
+      "command": "bun",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/commands/init.ts"]
+    },
+    {
+      "name": "agentarium-stats",
+      "description": "Show agent activity statistics",
+      "command": "bun",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/commands/show-stats.ts"]
+    }
+  ]
+}

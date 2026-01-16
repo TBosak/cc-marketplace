@@ -1,0 +1,7 @@
+{
+  "name": "agentarium",
+  "version": "1.1.4",
+  "description": "Track, display, filter, and analyze Claude Code agent activity",
+  "author": { "name": "Tim Barani" },
+  "commands": "./commands/commands.json"
+}

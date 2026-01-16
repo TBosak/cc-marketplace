@@ -1,0 +1,11 @@
+{
+  "name": "tbosak",
+  "owner": { "name": "Tim Barani" },
+  "plugins": [
+    {
+      "name": "agentarium",
+      "source": "./plugins/agentarium",
+      "description": "Track, display, filter, and analyze Claude Code agent activity."
+    }
+  ]
+}

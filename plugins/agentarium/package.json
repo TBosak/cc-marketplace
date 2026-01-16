@@ -1,0 +1,29 @@
+{
+  "name": "agentarium",
+  "version": "1.0.0",
+  "description": "Track, display, filter, and analyze Claude Code agent activity",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run ui/server.ts",
+    "build": "bun build ui/src/index.tsx --outdir ui/dist --minify",
+    "mcp": "bun run mcp/server.ts",
+    "stats": "bun run commands/show-stats.ts",
+    "dashboard": "bun run commands/open-dashboard.ts"
+  },
+  "dependencies": {
+    "hono": "^4.6.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
