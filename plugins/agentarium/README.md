@@ -9,23 +9,18 @@ Track, display, filter, and analyze Claude Code agent activity.
 - **MCP Server**: Query agent activity programmatically from Claude Code
 - **Web Dashboard**: React-based UI with filterable timeline and analytics
 
-## Installation
-
-```bash
-bun install
-```
-
 ## Usage
+
+### Installation
+1. Install Bun: https://bun.sh/
+2. 
 
 ### As a Claude Code Plugin
 
-Add to your Claude Code settings or link as a plugin:
-
-```json
-{
-  "plugins": ["/path/to/agentarium"]
-}
-```
+1. In Claude Code, go to **Settings > Plugins**.
+2. Click **Add Plugin** and select the `plugins/agentarium/.claude-plugin` folder.
+3. Install tracking hooks and initialize database by starting a session with the plugin enabled.
+4. Restart Claude Code to ensure hooks are active and that dashboard is accessible.
 
 ### Dashboard
 
